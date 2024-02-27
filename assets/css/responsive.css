@@ -1,0 +1,243 @@
+@media only screen and (min-width: 1202px){
+    header .header-card{
+        margin-top: 55px;
+        padding: 3rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    header .header-card{
+        padding: 2rem;
+    }
+
+    .header-card h1{
+        font-size: 55px;
+    }
+
+    .header-card p{
+        font-size: 43px;
+    }
+
+    #home .home-text{
+        padding: 0;
+    }
+
+    .home-img img{
+        height: 17rem;
+    }
+
+    .welcome-card-inner h6{
+        margin-top: 13%;
+        font-size: 19px;
+    }
+
+    .welcome-card-inner p{
+        font-size: 13px;
+    }
+
+    .welcome-card-inner span{
+        font-weight: 700;
+    }
+
+    .cuisine .circle ul{
+        margin-left: 15rem;
+    }
+
+    #menu .menu-card{
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    #spoon{
+        text-align: center;
+    }
+
+    #home #about .about-card{
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    #home #about .about-card h4{
+        font-size: 21px;
+    }
+
+    #menu .menu-card{
+        max-width: 38rem;
+    }
+
+    .cuisine p{
+        padding: 0;
+    }
+
+    #welcome .welcome-card{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .welcome-card-inner h6 {
+        margin-top: 31%;
+        font-size: 25px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    header .header-card{
+        padding: 1rem;
+    }
+
+    .header-card h1{
+        font-size: 44px;
+    }
+
+    .header-card p{
+        font-size: 33px;
+    }
+
+    .header-card button{
+        font-size: 11px;
+    }
+
+    .welcome-card-inner h6 {
+        margin-top: 27px;
+        font-size: 21px;
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+    header{
+        height: 85vh;
+    }
+
+    .header-card h1{
+        font-size: 25px;
+    }
+
+    .header-card button {
+        font-size: 9px;
+    }
+
+    .header-card p {
+        font-size: 19px;
+    }
+
+    #spoon .home-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    #home .home-text h3{
+        font-size: 19px;
+        margin-top: 1rem;
+    }
+
+    #home .home-text p{
+        font-size: 11px;
+    }
+
+    .home-img img{
+        height: 11rem;
+    }
+
+    #home #about{
+        padding: 2rem 0rem;
+    }
+
+    #home #about .about-card{
+        gap: 1rem;
+    }
+
+    #home #about .about-card h4{
+        font-size: 17px;
+    }
+
+    #home #about .about-card p{
+        font-size: 9px;
+    }
+
+    #welcome{
+        padding: 4rem 1rem;
+    }
+
+    .welcome-card-inner h6{
+        font-size: 15px;
+    }
+
+    .welcome-card-inner p{
+        font-size: 9px;
+    }
+
+    .cuisine h2{
+        font-size: 21px;
+    }
+
+    .cuisine p{
+        font-size: 11px;
+    }
+
+    .cuisine .circle i{
+        font-size: 19px;
+    }
+
+    .cuisine .circle ul li a{
+        gap: .5rem;
+        font-size: 14px;
+    }
+
+    #menu{
+        padding: 4rem 1rem;
+        height: 135vh;
+    }
+
+    #menu .menu-card {
+        max-width: 38rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu .menu-card i{
+        font-size: 33px;
+    }
+
+    #menu .menu-card h5{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #menu .menu-card p{
+        display: grid;
+        font-size: 9px;
+    }
+
+    footer{
+        display: block;
+        text-align: center;
+    }
+
+    footer ul{
+        margin: 2rem 0;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
